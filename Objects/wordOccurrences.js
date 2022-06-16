@@ -11,7 +11,7 @@ function wordOccurrences(input){
     let array = Array.from(result).sort((a,b) => b[1]- a[1])
     for(let index of array){
         console.log(index.join(" -> ") + " times");
-        //console.log(`${index[0]} -> ${index[1]} times`);
+        
     }
 }
 wordOccurrences(["Here", "is", "the", "first", "sentence", "Here", "is", "another", "sentence", "And", "finally", "the", "third", "sentence"]);
